@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\A922apulia\\source\\repos\\BikeStoreDbConnect\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16A7EA0E-E52A-4053-B9FA-C5D7B900F2A0}|BikeStoreDbConnect\\BikeStoreDbConnect.csproj|c:\\users\\a922apulia\\source\\repos\\bikestoredbconnect\\bikestoredbconnect\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16A7EA0E-E52A-4053-B9FA-C5D7B900F2A0}|BikeStoreDbConnect\\BikeStoreDbConnect.csproj|solutionrelative:bikestoredbconnect\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16A7EA0E-E52A-4053-B9FA-C5D7B900F2A0}|BikeStoreDbConnect\\BikeStoreDbConnect.csproj|c:\\users\\a922apulia\\source\\repos\\bikestoredbconnect\\bikestoredbconnect\\dbaccess\\service\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16A7EA0E-E52A-4053-B9FA-C5D7B900F2A0}|BikeStoreDbConnect\\BikeStoreDbConnect.csproj|solutionrelative:bikestoredbconnect\\dbaccess\\service\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16A7EA0E-E52A-4053-B9FA-C5D7B900F2A0}|BikeStoreDbConnect\\BikeStoreDbConnect.csproj|c:\\users\\a922apulia\\source\\repos\\bikestoredbconnect\\bikestoredbconnect\\config\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16A7EA0E-E52A-4053-B9FA-C5D7B900F2A0}|BikeStoreDbConnect\\BikeStoreDbConnect.csproj|solutionrelative:bikestoredbconnect\\config\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16A7EA0E-E52A-4053-B9FA-C5D7B900F2A0}|BikeStoreDbConnect\\BikeStoreDbConnect.csproj|c:\\users\\a922apulia\\source\\repos\\bikestoredbconnect\\bikestoredbconnect\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16A7EA0E-E52A-4053-B9FA-C5D7B900F2A0}|BikeStoreDbConnect\\BikeStoreDbConnect.csproj|solutionrelative:bikestoredbconnect\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16A7EA0E-E52A-4053-B9FA-C5D7B900F2A0}|BikeStoreDbConnect\\BikeStoreDbConnect.csproj|c:\\users\\a922apulia\\source\\repos\\bikestoredbconnect\\bikestoredbconnect\\dbaccess\\interface\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16A7EA0E-E52A-4053-B9FA-C5D7B900F2A0}|BikeStoreDbConnect\\BikeStoreDbConnect.csproj|solutionrelative:bikestoredbconnect\\dbaccess\\interface\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16A7EA0E-E52A-4053-B9FA-C5D7B900F2A0}|BikeStoreDbConnect\\BikeStoreDbConnect.csproj|c:\\users\\a922apulia\\source\\repos\\bikestoredbconnect\\bikestoredbconnect\\bikestoredbconnect.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{16A7EA0E-E52A-4053-B9FA-C5D7B900F2A0}|BikeStoreDbConnect\\BikeStoreDbConnect.csproj|solutionrelative:bikestoredbconnect\\bikestoredbconnect.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Config.cs",
+              "DocumentMoniker": "C:\\Users\\A922apulia\\source\\repos\\BikeStoreDbConnect\\BikeStoreDbConnect\\Config\\Config.cs",
+              "RelativeDocumentMoniker": "BikeStoreDbConnect\\Config\\Config.cs",
+              "ToolTip": "C:\\Users\\A922apulia\\source\\repos\\BikeStoreDbConnect\\BikeStoreDbConnect\\Config\\Config.cs",
+              "RelativeToolTip": "BikeStoreDbConnect\\Config\\Config.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T12:34:40.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\A922apulia\\source\\repos\\BikeStoreDbConnect\\BikeStoreDbConnect\\DBAccess\\Service\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "BikeStoreDbConnect\\DBAccess\\Service\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\A922apulia\\source\\repos\\BikeStoreDbConnect\\BikeStoreDbConnect\\DBAccess\\Service\\ProductRepository.cs",
+              "RelativeToolTip": "BikeStoreDbConnect\\DBAccess\\Service\\ProductRepository.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAYwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T12:30:08.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\A922apulia\\source\\repos\\BikeStoreDbConnect\\BikeStoreDbConnect\\Model\\Product.cs",
+              "RelativeDocumentMoniker": "BikeStoreDbConnect\\Model\\Product.cs",
+              "ToolTip": "C:\\Users\\A922apulia\\source\\repos\\BikeStoreDbConnect\\BikeStoreDbConnect\\Model\\Product.cs",
+              "RelativeToolTip": "BikeStoreDbConnect\\Model\\Product.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAowBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T12:29:15.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\A922apulia\\source\\repos\\BikeStoreDbConnect\\BikeStoreDbConnect\\DBAccess\\Interface\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "BikeStoreDbConnect\\DBAccess\\Interface\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\A922apulia\\source\\repos\\BikeStoreDbConnect\\BikeStoreDbConnect\\DBAccess\\Interface\\IProductRepository.cs",
+              "RelativeToolTip": "BikeStoreDbConnect\\DBAccess\\Interface\\IProductRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T12:26:55.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BikeStoreDbConnect",
+              "DocumentMoniker": "C:\\Users\\A922apulia\\source\\repos\\BikeStoreDbConnect\\BikeStoreDbConnect\\BikeStoreDbConnect.csproj",
+              "RelativeDocumentMoniker": "BikeStoreDbConnect\\BikeStoreDbConnect.csproj",
+              "ToolTip": "C:\\Users\\A922apulia\\source\\repos\\BikeStoreDbConnect\\BikeStoreDbConnect\\BikeStoreDbConnect.csproj",
+              "RelativeToolTip": "BikeStoreDbConnect\\BikeStoreDbConnect.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-10T12:21:24.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\A922apulia\\source\\repos\\BikeStoreDbConnect\\BikeStoreDbConnect\\Program.cs",
+              "RelativeDocumentMoniker": "BikeStoreDbConnect\\Program.cs",
+              "ToolTip": "C:\\Users\\A922apulia\\source\\repos\\BikeStoreDbConnect\\BikeStoreDbConnect\\Program.cs",
+              "RelativeToolTip": "BikeStoreDbConnect\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T12:18:53.723Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
