@@ -10,6 +10,9 @@ namespace BikeStoreDbConnect.DBAccess.Interface
 {
     internal interface IProductRepository
     {
-        public Product GetByID(int Id);
+        public Product GetByID(int Id); //Prende Un prodotto per id
+
+        public List<Product> GetAllProducts();  //Prende tutti i valori di prodotto
+
     }
 }

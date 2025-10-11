@@ -18,12 +18,12 @@ namespace BikeStoreDbConnect.Model
 
         public override string ToString()
         {
-            return "Id : " + Id  + 
-                    "\nModel : " + Model + 
-                    "\nBrand Id : " + BrandId + 
-                    "\nCategory : " + CategoryId +
-                    "\nModel Year : " + ModelYear + 
-                    "\nPrice : " + Price;
+            return "[Id : " + Id + " " +
+                    "Model : " + Model + " | " +
+                    "Brand Id : " + BrandId + " | " +
+                    "Category : " + CategoryId + " | " +
+                    "Model Year : " + ModelYear + " | " +
+                    "Price : " + Price + " ]";
         }
     }
 }

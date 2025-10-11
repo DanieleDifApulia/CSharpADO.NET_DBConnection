@@ -65,5 +65,53 @@ namespace BikeStoreDbConnect.DBAccess.Service
             return product ;
         }
 
+
+        public List<Product> GetAllProducts() {
+            List<Product> resultProducts = new List<Product>(); //Lista risultato della query 
+
+
+            var connectionString = Config.Config.BikeStoreConnectString; //Assegnazione stringa di connessione
+            //Creazione Connessione
+            var conn = new SqlConnection(connectionString); //Creazione dell'istanza della connessione
+            try
+            {
+                Console.WriteLine("Apertura della connessione al db..");
+                conn.Open(); //Apertura della Connessione
+                            
+                //Stringa Query del comando da eseguire sul DB
+                String query = "SELECT * FROM [production].products;"; //Select all
+                var comQuery = new SqlCommand(query, conn);  //Creazione del comando db 
+                SqlDataReader reader = comQuery.ExecuteReader(); //Creazione dell'istanza che leggerà l'output del comandoSQL
+                while (reader.Read()) //Legge ogni riga della query 
+                {
+                    Product product = new Product(); //LA dichiarazione va inserita qua dentro dichiarata fuori inizializza la lista sempre con gli stessi valori
+                    product.Id = reader.GetInt32(0);
+                    product.Model = reader.GetString(1);
+                    product.BrandId = reader.GetInt32(2);
+                    product.CategoryId = reader.GetInt32(3);
+                    product.ModelYear = reader.GetInt16(4);
+                    product.Price = reader.GetDecimal(5); 
+                    resultProducts.Add(product); //Aggiunge il prodtto che ha letto dalla riga della query
+                }
+            }
+            catch (SqlException ex)
+            {
+                // Gestione dell'eccezione
+                Console.WriteLine("ERRORE NELL CONNESSIONE");
+                Console.WriteLine(ex.Message);
+
+            }
+            finally
+            {
+                Console.WriteLine("Chiusura della connessione al db..");
+                // Chiusura della connessione
+                if (conn.State == ConnectionState.Open)
+                    conn.Close();
+            }
+
+
+
+            return resultProducts;
+        }
     }
 }
