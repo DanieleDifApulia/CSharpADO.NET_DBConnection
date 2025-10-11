@@ -14,7 +14,7 @@ namespace BikeStoreDbConnect.DBAccess.Service
     internal class ProductRepository : IProductRepository
     {
 
-        public Product GetByID()
+        public Product GetByID(int Id)
         {
             Product product = new Product(); //Oggetto che conterra i dati finali del database
                                              //Assegnazione della stringa della connessione
@@ -25,10 +25,19 @@ namespace BikeStoreDbConnect.DBAccess.Service
             {
                 conn.Open(); //Apertura della Connessione
                     //Stringa Query del comando da eseguire sul DB
-                String query = "SELECT  *  FROM [production].products p WHERE p.product_id = 1;";
+
+                String query = "SELECT  *  FROM [production].products p WHERE p.product_id = @product_id;"; //Aggiunta del parametro
+                var paramId = new SqlParameter //Creazione del parameter
+                {
+                    ParameterName = "@product_id",  //Nota nel libro richiede ; nova versione richiede ,
+                    DbType = DbType.Int32,
+                    Value = Id
+                };
                 var comQuery= new SqlCommand(query , conn); //Creazione del comando db 
+                comQuery.Parameters.Add(paramId);
                 SqlDataReader reader = comQuery.ExecuteReader(); //Creazione dell'istanza che leggerà l'output del comando
-                while (reader.Read()) {
+                while (reader.Read())
+                {
                     product.Id = reader.GetInt32(0);
                     product.Model = reader.GetString(1);
                     product.BrandId = reader.GetInt32(2);
