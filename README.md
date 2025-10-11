@@ -6,4 +6,6 @@ Inportante !! Cambiare la stringa di Connessione per connettersi al DB
 
 Funzioni Implementate 
 -Connessione SQL Server
--Recupero del record Prodotto con prodotto id = 1
+-Menu per la scelta della query da eseguire 
+-GetProductById
+-GetAllProducts
