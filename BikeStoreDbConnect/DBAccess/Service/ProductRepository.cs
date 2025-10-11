@@ -26,14 +26,14 @@ namespace BikeStoreDbConnect.DBAccess.Service
                 conn.Open(); //Apertura della Connessione
                     //Stringa Query del comando da eseguire sul DB
                 String query = "SELECT  *  FROM [production].products p WHERE p.product_id = 1;";
-                var comQuery= new SqlCommand(query); //Creazione del comando db 
+                var comQuery= new SqlCommand(query , conn); //Creazione del comando db 
                 SqlDataReader reader = comQuery.ExecuteReader(); //Creazione dell'istanza che leggerà l'output del comando
                 while (reader.Read()) {
                     product.Id = reader.GetInt32(0);
                     product.Model = reader.GetString(1);
                     product.BrandId = reader.GetInt32(2);
                     product.CategoryId = reader.GetInt32(3);
-                    product.ModelYear = reader.GetInt32(4);
+                    product.ModelYear = reader.GetInt16(4);
                     product.Price = reader.GetDecimal(5);
                 }
             }
