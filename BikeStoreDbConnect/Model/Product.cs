@@ -14,8 +14,18 @@ namespace BikeStoreDbConnect.Model
       public int  BrandId { get; set; }
       public int     CategoryId { get; set; }
       public int     ModelYear { get ; set; }
-      public decimal Price { get; set; }    
+      public decimal Price { get; set; }
 
-
+        public override string ToString()
+        {
+            return "Id : " + Id  + 
+                    "\nModel : " + Model + 
+                    "\nBrand Id : " + BrandId + 
+                    "\nCategory : " + CategoryId +
+                    "\nModel Year : " + ModelYear + 
+                    "\nPrice : " + Price;
+        }
     }
 }
+
+
