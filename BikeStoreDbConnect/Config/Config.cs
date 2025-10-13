@@ -8,6 +8,6 @@ namespace BikeStoreDbConnect.Config
 {
     public static class Config
     {
-        public const string BikeStoreConnectString = "Server=LAPTOP-QIH8KERG;Database=BikeStores;Integrated Security = True; Trusted_Connection = true; TrustServerCertificate = true;";
+        public const string BikeStoreConnectString = "Server=A922\\SQLEXPRESS; Database=BikeStore;Integrated Security = True; Trusted_Connection = true; TrustServerCertificate = true;";
     }
 }

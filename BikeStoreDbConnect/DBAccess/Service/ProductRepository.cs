@@ -66,6 +66,8 @@ namespace BikeStoreDbConnect.DBAccess.Service
         }
 
 
+     
+
         public List<Product> GetAllProducts() {
             List<Product> resultProducts = new List<Product>(); //Lista risultato della query 
 
