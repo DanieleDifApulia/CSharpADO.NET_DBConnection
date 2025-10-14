@@ -115,5 +115,55 @@ namespace BikeStoreDbConnect.DBAccess.Service
 
             return resultProducts;
         }
+
+
+        public int CountProducts() {
+            int productsCount = 0;
+            var connectionString = Config.Config.BikeStoreConnectString;
+            //Creazione Connessione
+            var conn = new SqlConnection(connectionString);
+            try
+            {
+                conn.Open(); //Apertura della Connessione
+                             //Stringa Query del comando da eseguire sul DB
+
+                String query = "SELECT COUNT(*) FROM production.products;;"; //Aggiunta del parametro
+
+                var comQuery = new SqlCommand(query, conn); //Creazione del comando db 
+                SqlDataReader reader = comQuery.ExecuteReader(); //Creazione dell'istanza che leggerà l'output del comando
+                while (reader.Read())
+                {
+                    productsCount =  reader.GetInt32(0);
+                }
+            }
+            catch (SqlException ex)
+            {
+                // Gestione dell'eccezione
+                Console.WriteLine("ERRORE NELL CONNESSIONE");
+                Console.WriteLine(ex.Message);
+
+            }
+            finally
+            {
+                // Chiusura della connessione
+                if (conn.State == ConnectionState.Open)
+                    conn.Close();
+            }
+            return productsCount;
+        }
+
+
+        public bool Update(Product product)  //Da implementare 
+        {
+            return false;
+        }
+        public bool Delete(Product product) //Da Implementare
+        {
+            return false;
+        }
+
+        public bool Insert(Product product) { //Da Implementare
+            return false;
+        }
     }
 }

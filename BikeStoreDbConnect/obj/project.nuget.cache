@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aaIos3tBukI=",
+  "dgSpecHash": "zvZpVfWruTQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\A922apulia\\source\\gitProjects\\CSharpADO.NET_DBConnection\\BikeStoreDbConnect\\BikeStoreDbConnect.csproj",
+  "projectFilePath": "C:\\Users\\A922apulia\\Desktop\\C#AdoNet\\CSharpADO.NET_DBConnection-develop\\CSharpADO.NET_DBConnection-develop\\BikeStoreDbConnect\\BikeStoreDbConnect.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\A922apulia\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\A922apulia\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

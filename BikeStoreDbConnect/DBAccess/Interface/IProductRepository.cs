@@ -14,5 +14,12 @@ namespace BikeStoreDbConnect.DBAccess.Interface
 
         public List<Product> GetAllProducts();  //Prende tutti i valori di prodotto
 
+        public int CountProducts(); // Count di prodotti
+
+        public bool Insert(Product product); // Insert table
+
+        public bool Update(Product product); //Insert Update
+
+        public bool Delete(Product product); //Insert Delete 
     }
 }

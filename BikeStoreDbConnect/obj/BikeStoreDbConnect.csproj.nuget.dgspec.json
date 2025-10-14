@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\A922apulia\\source\\gitProjects\\CSharpADO.NET_DBConnection\\BikeStoreDbConnect\\BikeStoreDbConnect.csproj": {}
+    "C:\\Users\\A922apulia\\Desktop\\C#AdoNet\\CSharpADO.NET_DBConnection-develop\\CSharpADO.NET_DBConnection-develop\\BikeStoreDbConnect\\BikeStoreDbConnect.csproj": {}
   },
   "projects": {
-    "C:\\Users\\A922apulia\\source\\gitProjects\\CSharpADO.NET_DBConnection\\BikeStoreDbConnect\\BikeStoreDbConnect.csproj": {
+    "C:\\Users\\A922apulia\\Desktop\\C#AdoNet\\CSharpADO.NET_DBConnection-develop\\CSharpADO.NET_DBConnection-develop\\BikeStoreDbConnect\\BikeStoreDbConnect.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A922apulia\\source\\gitProjects\\CSharpADO.NET_DBConnection\\BikeStoreDbConnect\\BikeStoreDbConnect.csproj",
+        "projectUniqueName": "C:\\Users\\A922apulia\\Desktop\\C#AdoNet\\CSharpADO.NET_DBConnection-develop\\CSharpADO.NET_DBConnection-develop\\BikeStoreDbConnect\\BikeStoreDbConnect.csproj",
         "projectName": "BikeStoreDbConnect",
-        "projectPath": "C:\\Users\\A922apulia\\source\\gitProjects\\CSharpADO.NET_DBConnection\\BikeStoreDbConnect\\BikeStoreDbConnect.csproj",
+        "projectPath": "C:\\Users\\A922apulia\\Desktop\\C#AdoNet\\CSharpADO.NET_DBConnection-develop\\CSharpADO.NET_DBConnection-develop\\BikeStoreDbConnect\\BikeStoreDbConnect.csproj",
         "packagesPath": "C:\\Users\\A922apulia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A922apulia\\source\\gitProjects\\CSharpADO.NET_DBConnection\\BikeStoreDbConnect\\obj\\",
+        "outputPath": "C:\\Users\\A922apulia\\Desktop\\C#AdoNet\\CSharpADO.NET_DBConnection-develop\\CSharpADO.NET_DBConnection-develop\\BikeStoreDbConnect\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
