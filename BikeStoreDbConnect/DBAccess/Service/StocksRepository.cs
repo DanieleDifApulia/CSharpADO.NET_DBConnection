@@ -2,6 +2,7 @@
 using BikeStoreDbConnect.Model;
 using Microsoft.Data.SqlClient;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
@@ -81,12 +82,10 @@ namespace BikeStoreDbConnect.DBAccess.Service
                 while (reader.Read()) //Legge ogni riga della query 
                 {
                     Stock stock = new Stock(); //LA dichiarazione va inserita qua dentro dichiarata fuori inizializza la lista sempre con gli stessi valori
-                    stock.Id = reader.GetInt32(0);
-                    stock.Model = reader.GetString(1);
-                    stock.BrandId = reader.GetInt32(2);
-                    stock.CategoryId = reader.GetInt32(3);
-                    stock.ModelYear = reader.GetInt16(4);
-                    stock.Price = reader.GetDecimal(5);
+                    stock.StoreId = reader.GetInt32(0);
+                    stock.ProductId= reader.GetInt32(1);
+                    stock.Quantity = reader.GetInt32(2);
+
                     resultStocks.Add(stock); //Aggiunge il stock che ha letto dalla riga della query
                 }
             }
@@ -137,14 +136,11 @@ namespace BikeStoreDbConnect.DBAccess.Service
                 SqlDataReader reader = comQuery.ExecuteReader(); //Creazione dell'istanza che leggerà l'output del comandoSQL
                 while (reader.Read()) //Legge ogni riga della query 
                 {
-                    Stock product = new Stock(); //LA dichiarazione va inserita qua dentro dichiarata fuori inizializza la lista sempre con gli stessi valori
-                    product.Id = reader.GetInt32(0);
-                    product.Model = reader.GetString(1);
-                    product.BrandId = reader.GetInt32(2);
-                    product.CategoryId = reader.GetInt32(3);
-                    product.ModelYear = reader.GetInt16(4);
-                    product.Price = reader.GetDecimal(5);
-                    resultProducts.Add(product); //Aggiunge il prodtto che ha letto dalla riga della query
+                    Stock stock = new Stock(); //LA dichiarazione va inserita qua dentro dichiarata fuori inizializza la lista sempre con gli stessi valori
+                    stock.StoreId = reader.GetInt32(0);
+                    stock.ProductId = reader.GetInt32(1);
+                    stock.Quantity = reader.GetInt32(2);
+                    resultProducts.Add(stock); //Aggiunge il prodtto che ha letto dalla riga della query
                 }
             }
             catch (SqlException ex)

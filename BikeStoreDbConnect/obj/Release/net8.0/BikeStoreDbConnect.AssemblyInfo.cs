@@ -12,9 +12,9 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("BikeStoreDbConnect")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7991a9fa28a40e73384a27220ba4ddded9d5615")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+582e164446ef07f576004d226d6e69c893e958d4")]
 [assembly: System.Reflection.AssemblyProductAttribute("BikeStoreDbConnect")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BikeStoreDbConnect")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

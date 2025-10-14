@@ -58,7 +58,11 @@ namespace BikeStoreDbConnect.DBAccess.Service
                     row.OrderStatus = reader.GetByte(14);
                     row.OrderDate = reader.GetDateTime(15);
                     row.RequiredDate = reader.GetDateTime(16);
-                    row.ShippedDate = reader.GetDateTime(17);
+                    try {
+                        row.ShippedDate = reader.GetDateTime(17);
+                    } catch (Exception e) {
+                        row.ShippedDate = null;
+                    }
                     row.StoreId = reader.GetInt32(18);
                     row.StaffId = reader.GetInt32(19);
                     list.Add(row);

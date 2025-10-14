@@ -1,26 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\A922apulia\\Desktop\\C#AdoNet\\CSharpADO.NET_DBConnection-develop\\CSharpADO.NET_DBConnection-develop\\",
+  "WorkspaceRootPath": "C:\\Users\\A922apulia\\source\\gitProjects\\CSharpADO.NET_DBConnection\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{16A7EA0E-E52A-4053-B9FA-C5D7B900F2A0}|BikeStoreDbConnect\\BikeStoreDbConnect.csproj|c:\\users\\a922apulia\\desktop\\c#adonet\\csharpado.net_dbconnection-develop\\csharpado.net_dbconnection-develop\\bikestoredbconnect\\dbaccess\\service\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16A7EA0E-E52A-4053-B9FA-C5D7B900F2A0}|BikeStoreDbConnect\\BikeStoreDbConnect.csproj|solutionrelative:bikestoredbconnect\\dbaccess\\service\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16A7EA0E-E52A-4053-B9FA-C5D7B900F2A0}|BikeStoreDbConnect\\BikeStoreDbConnect.csproj|c:\\users\\a922apulia\\desktop\\c#adonet\\csharpado.net_dbconnection-develop\\csharpado.net_dbconnection-develop\\bikestoredbconnect\\dbaccess\\interface\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16A7EA0E-E52A-4053-B9FA-C5D7B900F2A0}|BikeStoreDbConnect\\BikeStoreDbConnect.csproj|solutionrelative:bikestoredbconnect\\dbaccess\\interface\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16A7EA0E-E52A-4053-B9FA-C5D7B900F2A0}|BikeStoreDbConnect\\BikeStoreDbConnect.csproj|c:\\users\\a922apulia\\desktop\\c#adonet\\csharpado.net_dbconnection-develop\\csharpado.net_dbconnection-develop\\bikestoredbconnect\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16A7EA0E-E52A-4053-B9FA-C5D7B900F2A0}|BikeStoreDbConnect\\BikeStoreDbConnect.csproj|solutionrelative:bikestoredbconnect\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16A7EA0E-E52A-4053-B9FA-C5D7B900F2A0}|BikeStoreDbConnect\\BikeStoreDbConnect.csproj|c:\\users\\a922apulia\\desktop\\c#adonet\\csharpado.net_dbconnection-develop\\csharpado.net_dbconnection-develop\\bikestoredbconnect\\dbaccess\\service\\product_orderitem_orders_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{16A7EA0E-E52A-4053-B9FA-C5D7B900F2A0}|BikeStoreDbConnect\\BikeStoreDbConnect.csproj|c:\\users\\a922apulia\\source\\gitprojects\\csharpado.net_dbconnection\\bikestoredbconnect\\dbaccess\\service\\product_orderitem_orders_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16A7EA0E-E52A-4053-B9FA-C5D7B900F2A0}|BikeStoreDbConnect\\BikeStoreDbConnect.csproj|solutionrelative:bikestoredbconnect\\dbaccess\\service\\product_orderitem_orders_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16A7EA0E-E52A-4053-B9FA-C5D7B900F2A0}|BikeStoreDbConnect\\BikeStoreDbConnect.csproj|c:\\users\\a922apulia\\desktop\\c#adonet\\csharpado.net_dbconnection-develop\\csharpado.net_dbconnection-develop\\bikestoredbconnect\\model\\product_orderitems_orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{16A7EA0E-E52A-4053-B9FA-C5D7B900F2A0}|BikeStoreDbConnect\\BikeStoreDbConnect.csproj|c:\\users\\a922apulia\\source\\gitprojects\\csharpado.net_dbconnection\\bikestoredbconnect\\model\\product_orderitems_orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16A7EA0E-E52A-4053-B9FA-C5D7B900F2A0}|BikeStoreDbConnect\\BikeStoreDbConnect.csproj|solutionrelative:bikestoredbconnect\\model\\product_orderitems_orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16A7EA0E-E52A-4053-B9FA-C5D7B900F2A0}|BikeStoreDbConnect\\BikeStoreDbConnect.csproj|c:\\users\\a922apulia\\source\\gitprojects\\csharpado.net_dbconnection\\bikestoredbconnect\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16A7EA0E-E52A-4053-B9FA-C5D7B900F2A0}|BikeStoreDbConnect\\BikeStoreDbConnect.csproj|solutionrelative:bikestoredbconnect\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16A7EA0E-E52A-4053-B9FA-C5D7B900F2A0}|BikeStoreDbConnect\\BikeStoreDbConnect.csproj|c:\\users\\a922apulia\\source\\gitprojects\\csharpado.net_dbconnection\\bikestoredbconnect\\dbaccess\\service\\stocksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16A7EA0E-E52A-4053-B9FA-C5D7B900F2A0}|BikeStoreDbConnect\\BikeStoreDbConnect.csproj|solutionrelative:bikestoredbconnect\\dbaccess\\service\\stocksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16A7EA0E-E52A-4053-B9FA-C5D7B900F2A0}|BikeStoreDbConnect\\BikeStoreDbConnect.csproj|c:\\users\\a922apulia\\source\\gitprojects\\csharpado.net_dbconnection\\bikestoredbconnect\\dbaccess\\service\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16A7EA0E-E52A-4053-B9FA-C5D7B900F2A0}|BikeStoreDbConnect\\BikeStoreDbConnect.csproj|solutionrelative:bikestoredbconnect\\dbaccess\\service\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16A7EA0E-E52A-4053-B9FA-C5D7B900F2A0}|BikeStoreDbConnect\\BikeStoreDbConnect.csproj|c:\\users\\a922apulia\\source\\gitprojects\\csharpado.net_dbconnection\\bikestoredbconnect\\dbaccess\\interface\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16A7EA0E-E52A-4053-B9FA-C5D7B900F2A0}|BikeStoreDbConnect\\BikeStoreDbConnect.csproj|solutionrelative:bikestoredbconnect\\dbaccess\\interface\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,69 +34,81 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "StocksRepository.cs",
+              "DocumentMoniker": "C:\\Users\\A922apulia\\source\\gitProjects\\CSharpADO.NET_DBConnection\\BikeStoreDbConnect\\DBAccess\\Service\\StocksRepository.cs",
+              "RelativeDocumentMoniker": "BikeStoreDbConnect\\DBAccess\\Service\\StocksRepository.cs",
+              "ToolTip": "C:\\Users\\A922apulia\\source\\gitProjects\\CSharpADO.NET_DBConnection\\BikeStoreDbConnect\\DBAccess\\Service\\StocksRepository.cs",
+              "RelativeToolTip": "BikeStoreDbConnect\\DBAccess\\Service\\StocksRepository.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T09:04:53.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\A922apulia\\Desktop\\C#AdoNet\\CSharpADO.NET_DBConnection-develop\\CSharpADO.NET_DBConnection-develop\\BikeStoreDbConnect\\DBAccess\\Service\\ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\A922apulia\\source\\gitProjects\\CSharpADO.NET_DBConnection\\BikeStoreDbConnect\\DBAccess\\Service\\ProductRepository.cs",
               "RelativeDocumentMoniker": "BikeStoreDbConnect\\DBAccess\\Service\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\A922apulia\\Desktop\\C#AdoNet\\CSharpADO.NET_DBConnection-develop\\CSharpADO.NET_DBConnection-develop\\BikeStoreDbConnect\\DBAccess\\Service\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\A922apulia\\source\\gitProjects\\CSharpADO.NET_DBConnection\\BikeStoreDbConnect\\DBAccess\\Service\\ProductRepository.cs",
               "RelativeToolTip": "BikeStoreDbConnect\\DBAccess\\Service\\ProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAswL8AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-14T08:27:49.976Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Product_OrderItem_Orders_Repository.cs",
-              "DocumentMoniker": "C:\\Users\\A922apulia\\Desktop\\C#AdoNet\\CSharpADO.NET_DBConnection-develop\\CSharpADO.NET_DBConnection-develop\\BikeStoreDbConnect\\DBAccess\\Service\\Product_OrderItem_Orders_Repository.cs",
+              "DocumentMoniker": "C:\\Users\\A922apulia\\source\\gitProjects\\CSharpADO.NET_DBConnection\\BikeStoreDbConnect\\DBAccess\\Service\\Product_OrderItem_Orders_Repository.cs",
               "RelativeDocumentMoniker": "BikeStoreDbConnect\\DBAccess\\Service\\Product_OrderItem_Orders_Repository.cs",
-              "ToolTip": "C:\\Users\\A922apulia\\Desktop\\C#AdoNet\\CSharpADO.NET_DBConnection-develop\\CSharpADO.NET_DBConnection-develop\\BikeStoreDbConnect\\DBAccess\\Service\\Product_OrderItem_Orders_Repository.cs",
+              "ToolTip": "C:\\Users\\A922apulia\\source\\gitProjects\\CSharpADO.NET_DBConnection\\BikeStoreDbConnect\\DBAccess\\Service\\Product_OrderItem_Orders_Repository.cs",
               "RelativeToolTip": "BikeStoreDbConnect\\DBAccess\\Service\\Product_OrderItem_Orders_Repository.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAQwDQAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAnwD0AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-13T14:02:57.411Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Product_OrderItems_Orders.cs",
-              "DocumentMoniker": "C:\\Users\\A922apulia\\Desktop\\C#AdoNet\\CSharpADO.NET_DBConnection-develop\\CSharpADO.NET_DBConnection-develop\\BikeStoreDbConnect\\Model\\Product_OrderItems_Orders.cs",
+              "DocumentMoniker": "C:\\Users\\A922apulia\\source\\gitProjects\\CSharpADO.NET_DBConnection\\BikeStoreDbConnect\\Model\\Product_OrderItems_Orders.cs",
               "RelativeDocumentMoniker": "BikeStoreDbConnect\\Model\\Product_OrderItems_Orders.cs",
-              "ToolTip": "C:\\Users\\A922apulia\\Desktop\\C#AdoNet\\CSharpADO.NET_DBConnection-develop\\CSharpADO.NET_DBConnection-develop\\BikeStoreDbConnect\\Model\\Product_OrderItems_Orders.cs",
+              "ToolTip": "C:\\Users\\A922apulia\\source\\gitProjects\\CSharpADO.NET_DBConnection\\BikeStoreDbConnect\\Model\\Product_OrderItems_Orders.cs",
               "RelativeToolTip": "BikeStoreDbConnect\\Model\\Product_OrderItems_Orders.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAzwCoAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAUwCIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-13T13:50:13.612Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\A922apulia\\Desktop\\C#AdoNet\\CSharpADO.NET_DBConnection-develop\\CSharpADO.NET_DBConnection-develop\\BikeStoreDbConnect\\DBAccess\\Interface\\IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\A922apulia\\source\\gitProjects\\CSharpADO.NET_DBConnection\\BikeStoreDbConnect\\DBAccess\\Interface\\IProductRepository.cs",
               "RelativeDocumentMoniker": "BikeStoreDbConnect\\DBAccess\\Interface\\IProductRepository.cs",
-              "ToolTip": "C:\\Users\\A922apulia\\Desktop\\C#AdoNet\\CSharpADO.NET_DBConnection-develop\\CSharpADO.NET_DBConnection-develop\\BikeStoreDbConnect\\DBAccess\\Interface\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\A922apulia\\source\\gitProjects\\CSharpADO.NET_DBConnection\\BikeStoreDbConnect\\DBAccess\\Interface\\IProductRepository.cs",
               "RelativeToolTip": "BikeStoreDbConnect\\DBAccess\\Interface\\IProductRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T12:51:45.328Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T12:51:45.328Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\A922apulia\\Desktop\\C#AdoNet\\CSharpADO.NET_DBConnection-develop\\CSharpADO.NET_DBConnection-develop\\BikeStoreDbConnect\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\A922apulia\\source\\gitProjects\\CSharpADO.NET_DBConnection\\BikeStoreDbConnect\\Program.cs",
               "RelativeDocumentMoniker": "BikeStoreDbConnect\\Program.cs",
-              "ToolTip": "C:\\Users\\A922apulia\\Desktop\\C#AdoNet\\CSharpADO.NET_DBConnection-develop\\CSharpADO.NET_DBConnection-develop\\BikeStoreDbConnect\\Program.cs",
+              "ToolTip": "C:\\Users\\A922apulia\\source\\gitProjects\\CSharpADO.NET_DBConnection\\BikeStoreDbConnect\\Program.cs",
               "RelativeToolTip": "BikeStoreDbConnect\\Program.cs",
-              "ViewState": "AgIAAIEAAAAAAAAAAAA9wLwAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAowLwAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-13T12:58:21.195Z",
               "EditorCaption": ""
