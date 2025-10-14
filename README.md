@@ -1,4 +1,4 @@
-# CSharpADO.NET_DB Connection  Main
+# CSharpADO.NET_DB Connection  Branch Daniele
  C# practice with ADO.NET connecting to Bike Stores database and testing on some SQL Command to run Quary
 
 Inportante !! Cambiare la stringa di Connessione per connettersi al DB 
@@ -10,5 +10,7 @@ Funzioni Implementate
 -Stampa Prodotto per id
 -Stampa Negozi
 -Stampa Negozi per id
+-Join Prodotti e Ordini 
+-Ricerca per status ordine
 
 https://github.com/DanieleDifApulia/CSharpADO.NET_DBConnection
