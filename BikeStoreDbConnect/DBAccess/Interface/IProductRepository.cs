@@ -20,6 +20,6 @@ namespace BikeStoreDbConnect.DBAccess.Interface
 
         public bool Update(Product product); //Insert Update
 
-        public bool Delete(Product product); //Insert Delete 
+        public bool Delete(int productInt); //Insert Delete 
     }
 }

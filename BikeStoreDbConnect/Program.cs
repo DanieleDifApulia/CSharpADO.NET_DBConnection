@@ -2,21 +2,188 @@
 using BikeStoreDbConnect.DBAccess.Service;
 using BikeStoreDbConnect.Model;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
 
+void MenuGestioneProdotti(ProductRepository productRepository) {
+    bool continua = true;
+    int scelta = 0;
+    while (continua)   //Menu
+    {
+        StampaMenuGestioneProdotti();
 
+       scelta = VerificaInt(Console.ReadLine());
+
+        switch (scelta)
+        {
+            case 1:
+                Console.WriteLine("1. ---------- Inserisci Prodotto");
+                InsertProduct(productRepository);
+                break;
+            case 2:
+                Console.WriteLine("2. ---------- Modifica Prodotto per id");
+                UpdateProduct(productRepository);
+                break;
+            case 3:
+                Console.WriteLine("3. ---------- Elimina Prodotto per id");
+                DeleteProduct(productRepository);
+                break;
+            case 4:
+                Console.WriteLine("4. ---------- Ricerca Prodotto per id");
+                GetProdById_Proc(productRepository);
+                break;
+            case 5:
+                Console.WriteLine("5. ---------- Mostra tutti i prodotti");
+                GetAllProducts_Proc(productRepository);
+                break;
+            case 6:
+                Console.WriteLine("6. ---------- Mostra il numero prodotti");
+                GetProductsCount_Proc(productRepository);
+                break;
+            case 7:
+                Console.WriteLine("7. ---------- Ordini prodotti ordinati per status");
+                break;
+            case 8:
+                continua = false;
+                break;
+            default:
+
+                break;
+        }
+
+        if (continua)
+        {
+            Console.WriteLine("\nPremi un tasto per continuare...");
+            Console.ReadKey();
+        }
+    }
+}
+
+void StampaMenuGestioneProdotti()
+{
+    Console.Clear();
+    Console.WriteLine("=== MENU GESTIONE PRODOTTI ===");
+    Console.WriteLine("1. Inserisci Prodotto");
+    Console.WriteLine("2. Modifica prodotto per Id");
+    Console.WriteLine("3. Elimina prodotto per Id");
+    Console.WriteLine("4. Ricerca Prodotto per Id");
+    Console.WriteLine("5. Mostra tutti i prodotti");
+    Console.WriteLine("6. Mostra il numero prodotti");
+    Console.WriteLine("7. Ordini prodotti ordinati per status");
+    Console.WriteLine("8. Esci");
+    Console.Write("Scegli un'opzione (1-8): ");
+}
+
+
+bool InsertProduct(ProductRepository repository)
+{
+    bool conferma = true; //Flag per uscita dell ' inserimento
+    string confirmStr = "";
+    Product product = new Product();
+    while (conferma)
+    {
+        product.Model = SecureStringInsert("Inserisci Modello : ");
+        product.BrandId = SecureIntInsert("Inserisci Brand Id : ");
+        product.Price = SecureDecimalInsert("Insersci Prezzo : ");
+        product.ModelYear = SecureIntInsert("Inserisci Anno del Modello : ");
+        product.CategoryId = SecureIntInsert("Inserisci la Categoria  : ");
+        Console.WriteLine("Confermi il prodotto ?");
+        confirmStr = SecureStringInsert(" ");
+        if (confirmStr == "Y" || confirmStr == "y")
+        {
+            conferma = false;
+        }
+    } 
+    return repository.Insert(product);
+}
+
+
+bool DeleteProduct(ProductRepository repository)
+{
+    bool conferma = true; //Flag per uscita dell ' inserimento
+    string confirmStr = " ";
+    Product product = new Product();
+    while (conferma)
+    {
+        product.Id = SecureIntInsert("Inserisci ID Modello :  "); 
+        product = repository.GetByID(product.Id); //Prende il prodotto by id
+        Console.WriteLine(product.ToString());//Stampa dell' prodotto
+        while (confirmStr != null) {
+            Console.WriteLine("\nConfermi il prodotto ? Y o N ");
+            confirmStr = Console.ReadLine();
+            if (confirmStr == "Y" || confirmStr == "y")
+            {
+                conferma = false;
+                break;
+            }
+        }
+    }  
+    return repository.Delete(product.Id);
+}
+
+bool UpdateProduct(ProductRepository repository) {
+    bool conferma = true; //Flag per uscita dell ' inserimento
+    string confirmStr = " ";
+    string inpString = "";
+    int inpInt = 0;
+    decimal inpDec = 0;
+    bool isIntFlag = false;
+    bool isDecFlag = false;
+    Product product = new Product();
+    while (conferma)
+    {
+        product.Id = SecureIntInsert("Inserisci ID Modello da Modificare : ");
+        product = repository.GetByID(product.Id); //Prende il prodotto by id
+        Console.WriteLine(product.ToString());//Stampa dell' prodotto
+        Console.Write("Inserisci Modello : ");
+        inpString = Console.ReadLine();
+        if (!string.IsNullOrWhiteSpace(inpString)) {
+            product.Model = inpString;
+        }
+        Console.Write("Inserisci Id Brand : ");
+        isIntFlag = int.TryParse(Console.ReadLine(), out inpInt);
+        if (!isIntFlag)
+        {
+            product.BrandId = inpInt;
+        }
+        Console.Write("Inserisci Model Year : ");
+        isIntFlag = int.TryParse(Console.ReadLine(), out inpInt);
+        if (!isIntFlag)
+        {
+            product.ModelYear = inpInt;
+        }
+        Console.Write("Inserisci list price : ");
+        isIntFlag = decimal.TryParse(Console.ReadLine(), out inpDec);
+        if (!isIntFlag)
+        {
+            product.Price = inpDec;
+        }
+        Console.Write("IL sara aggiornato cosi ");
+        Console.WriteLine(product.ToString());
+        while (true) {
+            Console.Write("Inserisci Confermi ? Y o N : ");
+            inpString = Console.ReadLine();
+            if (string.IsNullOrWhiteSpace(inpString))
+            {
+                Console.Write("Non hai inserito niente");
+            }
+            else {
+                break;
+            }
+        }
+    }
+    return repository.Update(product);
+}
 
 void StampaMenu()
 {
     Console.Clear();
     Console.WriteLine("=== MENU PRINCIPALE ===");
-    Console.WriteLine("1. Ricerca Prodotto per Id");
-    Console.WriteLine("2. Mostra tutti i prodotti");
-    Console.WriteLine("3. Ricerca Negozio per Id");
-    Console.WriteLine("4. Mostra tutti i Negozi");
-    Console.WriteLine("5. Mostra il numero prodotti");
-    Console.WriteLine("6. Ordini prodotti ordinati per status");
-    Console.WriteLine("7. Esci");
+    Console.WriteLine("1. Gestione prodotti");
+    Console.WriteLine("2. Gestion negozi");
+    Console.WriteLine("3. Gestione Ordini");
+    Console.WriteLine("4. Esci");
     Console.Write("Scegli un'opzione (1-7): ");
 }
 
@@ -75,6 +242,121 @@ float VerificaFloat(string a)
 }
 
 
+decimal VerificaDecimal(string a)
+{
+    bool verifica = true;
+    decimal valore;
+    do
+    {
+        if (decimal.TryParse(a, out valore))
+        {
+            verifica = true;
+        }
+        if (!decimal.TryParse(a, out valore))
+        {
+            verifica = false;
+            Console.WriteLine("Non è stato inserito un numero");
+            Console.WriteLine("Inserisci nuovamente");
+            a = Console.ReadLine();
+        }
+        else if (valore < 0)
+        {
+            Console.WriteLine("Il numero inserito è minore di 0");
+            Console.WriteLine("Inserisci nuovamente");
+            a = Console.ReadLine();
+        }
+    } while (valore < 0 || verifica == false);
+    return valore;
+}
+
+string SecureStringInsert(string msg) { //Controlla e richiede l' inserimento 
+    string str = "";
+    string confirmStr;
+    bool confirm = true;
+    while (confirm) {
+        Console.Write(msg);
+        str = Console.ReadLine();
+        if(str != null) //Se la stringa e diversa da null 
+        {
+            while (confirm)
+            {
+                Console.Write("Confermi ? Y or N  : ");
+                confirmStr = Console.ReadLine();
+                if (confirmStr == "Y" || confirmStr == "y")
+                {
+                    confirm = false;
+                }
+                else
+                {
+                    break;
+                }
+            }
+        }
+    }
+    return str;
+}
+
+int SecureIntInsert(string msg)
+{ //Controlla e richiede l' inserimento 
+    int x = 0;
+    string str = "";
+    string confirmStr;
+    bool   confirm = true;
+    bool isInt = false;
+    while (confirm)
+    {
+        Console.Write(msg);
+        isInt = int.TryParse(Console.ReadLine(),out x);
+        if (isInt) //Se la stringa e diversa da null 
+        {
+            while (confirm)
+            {
+                Console.Write("Confermi ? Y or N : ");
+                confirmStr = Console.ReadLine();
+                if (confirmStr == "Y" || confirmStr == "y")
+                {
+                    confirm = false;
+                }
+                else
+                {
+                    break;
+                }
+            }
+        }
+    }
+    return x;
+}
+
+decimal SecureDecimalInsert(string msg)
+{ //Controlla e richiede l' inserimento 
+    decimal x = 0;
+    string str = "";
+    string confirmStr;
+    bool confirm = true;
+    bool isDec = false;
+    while (confirm)
+    {
+        Console.Write(msg);
+        isDec = decimal.TryParse(Console.ReadLine(), out x);
+        if (isDec) //Se la stringa e diversa da null 
+        {
+            while (confirm)
+            {
+                Console.Write("Confermi ? Y or N : ");
+                confirmStr = Console.ReadLine();
+                if (confirmStr == "Y" || confirmStr == "y")
+                {
+                    confirm = false;
+                }
+                else {
+                    break;
+                }
+            }
+        }
+    }
+    return x;
+}
+
 /*void StampaQuarySemplice(List<Object> list) {  //NON FUNZIONANTE
 
     foreach(var item in list) //Per ogni oggetto generale nell lista di oggetti
@@ -83,7 +365,6 @@ float VerificaFloat(string a)
     }
 
 }*/
-
 
 void StampaProdotti(List<Product> listaProdotti) { 
 
@@ -95,6 +376,7 @@ void StampaProdotti(List<Product> listaProdotti) {
     }
 
 }
+
 
 void StampaNegozi(List<Store> lista)
 {
@@ -184,8 +466,6 @@ void GetAllProducts_Proc(ProductRepository repository)
 
 }
 
-
-
 void StampaLista(List<Product_OrderItems_Orders> list ) {
     foreach (var item in list)
     {
@@ -193,9 +473,6 @@ void StampaLista(List<Product_OrderItems_Orders> list ) {
         Console.WriteLine(item.ToString());
     }
 }
-
-
-
 
 void Prodotti_Ordini_Proc(Product_OrderItem_Orders_Repository repository)
 {  //Proc   Recupero dati e stampa
@@ -226,11 +503,11 @@ void GetProductsCount_Proc(ProductRepository repository) {
 Console.WriteLine("######### Bike Store DB #########");
 
         //Istanze 
-ProductRepository repository = new ProductRepository();
+ProductRepository productRepository = new ProductRepository();
 StoreRepository  repositoryStores = new StoreRepository();
 Product_OrderItem_Orders_Repository repoOrdini = new Product_OrderItem_Orders_Repository();
-Product prod = new Product();
 List<Product> products = new List<Product>();
+
 
 bool continua = true;
 while (continua)   //Menu
@@ -242,22 +519,16 @@ while (continua)   //Menu
     switch (scelta)
     {
         case "1":
-            GetProdById_Proc( repository );
+            MenuGestioneProdotti(productRepository);
             break;
         case "2":
-            GetAllProducts_Proc(repository );
+            Console.WriteLine("2.-------- Gestione negozi");
             break;
         case "3":
-            GetStoreById_Proc( repositoryStores );
+            Console.WriteLine("3.-------- Gestione Ordini");
             break;
         case "4":
             GetAllStores_Proc(repositoryStores );
-            break;
-        case "5":
-            GetProductsCount_Proc(repository);
-            break;
-        case "6":
-            Prodotti_Ordini_Proc(repoOrdini);
             break;
         case "7":
             continua = false;
