@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BikeStoreDbConnect")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71db36ed0277a1e04531028e73611e81f1724a5f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3661b0d8b332b955df7095672e6e520cefa6f811")]
 [assembly: System.Reflection.AssemblyProductAttribute("BikeStoreDbConnect")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BikeStoreDbConnect")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

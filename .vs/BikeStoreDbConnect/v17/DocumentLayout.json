@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{16A7EA0E-E52A-4053-B9FA-C5D7B900F2A0}|BikeStoreDbConnect\\BikeStoreDbConnect.csproj|c:\\users\\a922apulia\\source\\gitprojects\\csharpado.net_dbconnection\\bikestoredbconnect\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16A7EA0E-E52A-4053-B9FA-C5D7B900F2A0}|BikeStoreDbConnect\\BikeStoreDbConnect.csproj|solutionrelative:bikestoredbconnect\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16A7EA0E-E52A-4053-B9FA-C5D7B900F2A0}|BikeStoreDbConnect\\BikeStoreDbConnect.csproj|c:\\users\\a922apulia\\source\\gitprojects\\csharpado.net_dbconnection\\bikestoredbconnect\\dbaccess\\service\\product_orderitem_orders_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16A7EA0E-E52A-4053-B9FA-C5D7B900F2A0}|BikeStoreDbConnect\\BikeStoreDbConnect.csproj|solutionrelative:bikestoredbconnect\\dbaccess\\service\\product_orderitem_orders_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product_OrderItem_Orders_Repository.cs",
+              "DocumentMoniker": "C:\\Users\\A922apulia\\source\\gitProjects\\CSharpADO.NET_DBConnection\\BikeStoreDbConnect\\DBAccess\\Service\\Product_OrderItem_Orders_Repository.cs",
+              "RelativeDocumentMoniker": "BikeStoreDbConnect\\DBAccess\\Service\\Product_OrderItem_Orders_Repository.cs",
+              "ToolTip": "C:\\Users\\A922apulia\\source\\gitProjects\\CSharpADO.NET_DBConnection\\BikeStoreDbConnect\\DBAccess\\Service\\Product_OrderItem_Orders_Repository.cs",
+              "RelativeToolTip": "BikeStoreDbConnect\\DBAccess\\Service\\Product_OrderItem_Orders_Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T07:54:31.883Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +41,7 @@
               "RelativeDocumentMoniker": "BikeStoreDbConnect\\Program.cs",
               "ToolTip": "C:\\Users\\A922apulia\\source\\gitProjects\\CSharpADO.NET_DBConnection\\BikeStoreDbConnect\\Program.cs",
               "RelativeToolTip": "BikeStoreDbConnect\\Program.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAmwIYAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-14T10:18:02.947Z",
               "EditorCaption": ""

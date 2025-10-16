@@ -1,0 +1,23 @@
+SELECT * 
+FROM sales.orders o 
+join sales.stores s  on o.store_id = s.store_id 
+join production.stocks st on s.store_id = st.store_id
+join production.products p on st.product_id = p.product_id
+
+
+
+Join Tra ordini e ordini
+
+
+SELECT * 
+FROM sales.order_items oi
+join production.products  p on oi.product_id = p.product_id
+join sales.orders o on o.order_id = oi.order_id
+
+
+ //Selezione con status in input
+SELECT * 
+FROM sales.order_items oi
+join production.products  p on oi.product_id = p.product_id
+join sales.orders o on o.order_id = oi.order_id
+where o.order_status  = @Status

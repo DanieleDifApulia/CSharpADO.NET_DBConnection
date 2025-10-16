@@ -5,15 +5,15 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
-
-void MenuGestioneProdotti(ProductRepository productRepository) {
+void MenuGestioneProdotti(ProductRepository productRepository)
+{
     bool continua = true;
     int scelta = 0;
     while (continua)   //Menu
     {
         StampaMenuGestioneProdotti();
 
-       scelta = VerificaInt(Console.ReadLine());
+        scelta = VerificaInt(Console.ReadLine());
 
         switch (scelta)
         {
